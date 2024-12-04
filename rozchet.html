@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fff</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body class="body">
+    <div class="header">
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+                <img src="assets/images/logo.png" alt="Logo" class="col-4 header__logo">
+
+                <img src="assets/icons/burger.svg" alt="burger" class="header__burger col-6">
+                <nav class="col-6 header__navigation regular">
+                    <a href="index.html">Головна</a>
+                    <a href="rozchet.html">Вартість доставки</a>
+                    <a href="poslugi.html">Послуги</a>
+                    <a href="#">Оформити вантаж</a>
+                    <a href="#">Контакти</a>
+                    <a href="#">Про нас</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <body>
+        <section class="calculation" id="calculation">
+            <div class="container">
+                <div class="row calculation__main">
+                    <div class="col-8 window">
+                        <h1 class="bold">
+                            Отримати розрахунок вартості доставки вашого вантажу                            <img src="assets/icons/line/line.svg" alt="green line">
+                        </h1>
+
+                        <div class="row window__form">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="item">
+                                        <p class="semibold">
+                                            Категорія товару:                                        </p>
+
+                                        <input type="text" placeholder="Категорія товару" class="regular">
+                                    </div>
+                                    <div class="item">
+                                        <p class="semibold">
+                                            Вага вантажу (кг):                                        </p>
+
+                                        <input type="number" placeholder="Введіть вагу" class="regular">
+                                    </div>
+
+                                    <div class="checkbox-item">
+                                        <label class="item">
+                                            <p class="semibold">
+                                                Страхування                                            </p>
+
+                                            <input type="checkbox" class="regular">
+                                            <span class="checkmark">
+                                                <img src="assets/icons/buttons/checked.svg" alt="checked">
+                                            </span>
+                                        </label>
+
+                                        <label class="item">
+                                            <p class="semibold">
+                                                Післяплата                                  
+                                              </p>
+
+                                            <input type="checkbox" checked="checked" class="regular">
+                                            <span class="checkmark">
+                                                <img src="assets/icons/buttons/checked.svg" alt="checked">
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="item">
+                                        <p class="semibold">
+                                            Вартість вантажу:                                        </p class="semibold">
+
+                                        <input type="number" placeholder="Введіть вартість" class="regular">
+                                    </div>
+                                    <div class="item">
+                                        <p class="semibold">
+                                            Об'єм вантажу (м3):                                        </p>
+
+                                        <input type="number" placeholder="Введіть об'єм" class="regular">
+                                    </div>
+                                    <div class="item CNoFEA">
+                                        <p class="semibold">
+                                            Код ТН:                                        </p>
+
+                                        <input type="text" placeholder="Ввдіть код" class="regular">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <label for="file-input" class="file-item">
+                                    <p>фотографія.jpeg</p>
+                                    <input id="file-input" type="file">
+
+                                    <div class="file-placeholder">
+                                        <p>Завантажити фото товару</p>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="row">
+                                <button class="next-step">
+                                    <p>
+                                        Наступний крок                                    </p>
+
+                                    <img src="assets/icons/buttons/button-arrow.svg" alt="Arrow">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img src="assets/images/calc__man.png" alt="Man" class="col-4 calculation__main__man">
+                    <img src="assets/images/calc__logo.svg" alt="Logo" class="calculation__main__logo">
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>
